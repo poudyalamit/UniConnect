@@ -1,0 +1,31 @@
+{
+  "name": "forum-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@erc725/erc725.js": "^0.14.4",
+    "@lukso/lsp-factory.js": "^2.3.3",
+    "ethereum-blockies-base64": "^1.0.2",
+    "got": "^12.1.0",
+    "ipfs-http-client": "^57.0.3",
+    "ipfs-utils": "^9.0.7",
+    "next": "12.2.2",
+    "node": "^18.7.0",
+    "node-fetch": "^2.6.7",
+    "react": "18.2.0",
+    "react-modal": "^3.15.1",
+    "underscore": "^1.13.4",
+    "web3": "^1.7.4"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.2"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@types/sinon-chai": "^3.2.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.10.1",
+    "hardhat-deploy": "^0.11.12",
+    "install": "^0.13.0",
+    "npm": "^8.15.1"
+  },
+  "dependencies": {
+    "@lukso/lsp-smart-contracts": "^0.6.2",
+    "async": "^3.2.4",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^16.0.1",
+    "elliptic": "^6.5.4",
+    "ether": "^0.0.9",
+    "got": "^12.3.0",
+    "json-schema": "^0.4.0",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.6",
+    "node-fetch": "^3.2.9",
+    "normalize-url": "^7.0.3",
+    "path-parse": "^1.0.7",
+    "simple-get": "^4.0.1",
+    "tar": "^6.1.11",
+    "underscore": "^1.13.4",
+    "ws": "^8.8.1",
+    "yargs-parser": "^21.0.1"
+  }
+}
