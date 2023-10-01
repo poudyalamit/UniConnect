@@ -1,4 +1,4 @@
-### UniConnect
+## UniConnect
 UniConnect is a dynamic social platform tailored exclusively for university students. It provides a safe and anonymous space for students to express themselves, engage in open discussions, earn rewards for completing specific university tasks, ensure transparency in university charity initiatives, and have a say in shaping university policies.
 
 
