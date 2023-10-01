@@ -16,24 +16,25 @@ Go to the project directory
 Install dependencies
 ```bash
   npm install
-
-  npm run dev
 ``` 
 ## Compile Locally
 
 ```bash
-  cd smart-contracts/
-  hardhat compile
+  cd uniconnect/
+  mpx hardhat compile
 ```
 ## Deploy your smart contract to Sepolia testnet:
 
 ```bash
-  cd smart-contracts/
-  npx run hardhat scripts/deployLSP7.js --network Sepolia
+  cd uniconnect/
+  npx run hardhat scripts/"Your deploy file" --network Sepolia
 ```
 ## Start the Client
-
+ 
   open the terminal
+  ```bash
+  cd uniconnect_f
+```
   ```bash
   npm install
   npm run dev
