@@ -43,14 +43,20 @@ Install dependencies
   cd smart-contracts/
   npx run hardhat scripts/deployLSP7.js
 ```
+## Deploy your smart contract to Sepolia testnet:
+
+```bash
+  cd smart-contracts/
+  npx run hardhat scripts/deployLSP7.js --network Sepolia
+```
 ## Start the Client
 
-  //open the terminal
+  open the terminal
   ```bash
   cd uniconnect_f
   npm start
 ```
  
   Made By
-  This app is developed by team SEWY
+  This blockchain web app is developed by team **SEWY**
 
