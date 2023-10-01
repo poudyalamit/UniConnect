@@ -1,4 +1,4 @@
-## UniConnect
+### UniConnect
 UniConnect is a dynamic social platform tailored exclusively for university students. It provides a safe and anonymous space for students to express themselves, engage in open discussions, earn rewards for completing specific university tasks, ensure transparency in university charity initiatives, and have a say in shaping university policies.
 
 
@@ -11,25 +11,29 @@ git clone https://github.com/poudyalamit/UniConnect.git
  ```
 Install MetaMask https://metamask.io/download/
 
-Go to the project directory
+# Go to the project directory
+ ```bash
+   cd Uniconnect/
+```
 
-Install dependencies
+# Install dependencies
 ```bash
+  cd uniconnect/
   npm install
 ``` 
-## Compile Locally
+# Compile Locally
 
 ```bash
   cd uniconnect/
   mpx hardhat compile
 ```
-## Deploy your smart contract to Sepolia testnet:
+# Deploy your smart contract to Sepolia testnet:
 
 ```bash
   cd uniconnect/
   npx run hardhat scripts/"Your deploy file" --network Sepolia
 ```
-## Start the Client
+# Start the Client
  
   open the terminal
   ```bash
