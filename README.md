@@ -1,19 +1,28 @@
-UniConnect
+## UniConnect
 
 A social platform for university students that allows them to freely express their ideas, opinions, and interests in a secure and anonymous online space. The platform features a forum for open discussion, a Metamask wallet integration for secure transactions, and NFT badges for academic achievements. With that paltform, students can connect with their peers, celebrate their wins, and build a stronger sense of community within their university.
 
 ## Some key features of UniConnect:
+<ul>
 
-UniConnect: Empowering Ideas Anonymously
-CampusSpeak: Your Anonymous Academic Hub
-ScholarLink: Securely Unleash Your Ideas
-PeerPulse: Nurturing Campus Community
-AnonUniVerse: Express, Connect, Achieve
-IdeaHaven: Fostering University Unity
-NFTScholar: Unleash Your Academic Achievements
-UniMesh: Anonymously Amplify Your Voice
-CampusNexus: Secure Social for Students
-IdeaForge: Building Stronger Academic Bonds
+ 
+<li>
+Browse and connect anonymously with peers 
+</li>
+
+<li>
+ Get rewards by completing tasks online
+</li>
+
+<li>
+Enable crowdfunding to support needy 
+</li>
+
+<li>
+Vote for change
+</li>
+ 
+</ul>
 
 Tech Stack
 Client: Next JS
@@ -33,15 +42,14 @@ Go to the project directory
 Install dependencies
 ```bash
   npm install
-```
-  ```bash
+
   npm run dev
 ``` 
-## Locally run into your browser:
+## Compile Locally
 
 ```bash
   cd smart-contracts/
-  npx run hardhat scripts/deployLSP7.js
+  hardhat compile
 ```
 ## Deploy your smart contract to Sepolia testnet:
 
