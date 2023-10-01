@@ -1,25 +1,45 @@
-.
+UniConnect
 
-## Local Development
+A social platform for university students that allows them to freely express their ideas, opinions, and interests in a secure and anonymous online space. The platform features a forum for open discussion, a Metamask wallet integration for secure transactions, and NFT badges for academic achievements. With that paltform, students can connect with their peers, celebrate their wins, and build a stronger sense of community within their university.
 
-### Install
+Some key features of UniConnect:
 
-```bash
-npm install
-```
+UniConnect: Empowering Ideas Anonymously
+CampusSpeak: Your Anonymous Academic Hub
+ScholarLink: Securely Unleash Your Ideas
+PeerPulse: Nurturing Campus Community
+AnonUniVerse: Express, Connect, Achieve
+IdeaHaven: Fostering University Unity
+NFTScholar: Unleash Your Academic Achievements
+UniMesh: Anonymously Amplify Your Voice
+CampusNexus: Secure Social for Students
+IdeaForge: Building Stronger Academic Bonds
 
-### Run
+Tech Stack
+Client: Next JS
+contracts: Solidity
 
-```bash
-npm run dev
-```
+Run Locally
+Clone the project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+git clone https://github.com/poudyalamit/UniConnect.git
 
-## Production Build
+Go to the project directory
 
-This app is deployed as a static NextJS website.
+Install dependencies
 
-```bash
-npm run export
-```
+  npm install
+  npm run dev
+
+Locally run into your browser:
+  cd smart-contracts/
+  npx run hardhat scripts/deployLSP7.js
+Start the Client
+
+  //open now terminal
+  cd uniconnect_f
+  npm start
+ 
+  Made By
+  This app is developed by team SEWY
+
