@@ -35,8 +35,8 @@ Install dependencies
 
   open the terminal
   ```bash
-  cd uniconnect_f
-  npm start
+  npm install
+  npm run dev
 ```
  
   Made By
