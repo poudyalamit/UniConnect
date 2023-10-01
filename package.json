@@ -12,6 +12,7 @@
   "dependencies": {
     "@erc725/erc725.js": "^0.14.4",
     "@lukso/lsp-factory.js": "^2.3.3",
+    "@thirdweb-dev/react": "^3.16.0",
     "ethereum-blockies-base64": "^1.0.2",
     "got": "^12.1.0",
     "ipfs-http-client": "^57.0.3",
@@ -25,7 +26,10 @@
     "web3": "^1.7.4"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.2"
+    "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
   }
 }

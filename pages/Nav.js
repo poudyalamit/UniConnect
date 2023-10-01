@@ -1,14 +1,14 @@
-import { ConnectWallet } from "@thirdweb-dev/react";
-import Feed from "../Feed";
+// import { ConnectWallet } from '@thirdweb-dev/react';
+import Feed from './Feed';
 
 const Nav = () => {
   return (
     <div>
-      <div className="font-sans">
+      <div className="font-sans ">
         <div className="wrapper w-full overflow-x-hidden relative">
-          <div className="navbar w-full h-16 flex flex-row relative bg-[#0B1416] justify-between items-center ">
+          <div className="navbar w-full h-20 flex flex-row relative bg-[#1c2324] justify-between items-center ">
             <img src="" alt="" />
-            <span className="text-white font-mulish -ml-[150px] text-sm font-medium ">
+            <span className="text-white font-mulish -ml-[150px]  font-extrabold text-5xl ">
               UniConnect
             </span>
 
@@ -29,14 +29,15 @@ const Nav = () => {
             </div>
 
             <div className="button space-x-3 flex mr-5">
-              <button
+              {/* <button
+                onClick={() => router.push('/profile')}
                 className="py-3 px-4  
               rounded-full font-bold text-sm text-white bg-[#1A282D] flex-row justify-between  transition-all duration-200 
               hover:bg-[#131F23] flex   items-center"
               >
-                Create Post
-                <div>
-                  {/* <svg
+                Profile */}
+              <div>
+                {/* <svg
                     viewBox="0 0 24 24"
                     focusable="false"
                     className="w-[20px]  h-[20px] "
@@ -46,17 +47,17 @@ const Nav = () => {
                       d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
                     ></path>
                   </svg> */}
-                </div>
-              </button>
-
+              </div>
+              {/* </button> */}
+              {/* 
               <ConnectWallet
                 className="py-2 px-4 text-white bg-[#FF4500] rounded-full transition-all duration-200 hover:bg-[#c62828]
          leading-[27px]  text-[18px]"
                 dropdownPosition={{
-                  side: "bottom",
-                  align: "center",
+                  side: 'bottom',
+                  align: 'center',
                 }}
-              />
+              /> */}
             </div>
           </div>
           <div className="data-section relative justify-between flex w-[100%] bg-[#0B1416] pt-4">

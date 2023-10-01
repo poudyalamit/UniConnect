@@ -1,6 +1,11 @@
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
+html{
+  margin: 0;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -9,6 +14,7 @@
   margin-top: 20px;
    color: '#000000';
    font-family: 'Verdana' ;
+   background-color: #F5F3F3;
 }
 
 .Footer {
@@ -101,7 +107,7 @@
 }
 
 .notificationWrapping {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   display: flex;
   flex-direction: column;
   align-items: center;
